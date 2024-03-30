@@ -1,0 +1,153 @@
+#third{
+			width: 100%;
+			height: 80px;
+			padding: 20px;
+			padding-bottom: 0px;
+			padding-top: 10px;
+			float: left;
+			position: fixed;
+			bottom: 0;
+			left:0;
+			background-color: #31363F;
+			color:#B0EACF;
+			font-family: "Segoe Script";
+			margin-top: 50px;
+		}
+		 #mod{
+			display: inline;
+			position: absolute;
+			right: 50px;
+		}
+audio{
+		position: fixed;
+		margin-top: 28px;
+		right: 20px;
+		width: 90%;
+		}
+label{
+
+	font-family: "Segoe Script";
+	width: 500px;
+	height: 10px;
+}
+#emoji{
+	width: 75px;
+	height: 75px;
+	display: inline-grid;
+	border-color: rgba(1,1,1,0.5);
+	background:transparent url("next.png");
+	/*mix-blend-mode: multiply;*/
+	background-size: cover;
+	border-bottom-left-radius: 50%;
+	border-top-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	border-top-right-radius: 50%;
+}
+#xyz{
+		display: inline;
+		position: absolute;
+		font-size: large;
+			
+		}
+		  
+		  .changebtn {
+			position: relative;
+			background: #444;
+			color: #fff;
+			text-decoration: none;
+			text-transform: uppercase;
+			border: none;
+			letter-spacing: 0.1rem;
+			font-size: 1rem;
+			padding: 0.5rem 1.5rem;
+			transition: 0.2s;
+		
+		  }
+		  
+		  .changebtn:hover {
+			letter-spacing: 0.2rem;
+			padding: 0.5rem 1.8rem;
+			background: rgb(62, 180, 137);
+			color: rgb(62, 180, 137);
+			/* box-shadow: 0 0 35px var(--clr); */
+			animation: box 3s infinite;
+		  }
+		  
+		  .changebtn::before {
+			content: "";
+			position: absolute;
+			inset: 1px;
+			background: #272822;
+		  }
+		  
+		  .changebtn span {
+			position: relative;
+			z-index: 3;
+		  }
+		  .changebtn i {
+			position: absolute;
+			inset: 0;
+			display: block;
+		  }
+		  
+		  .changebtn i::before {
+			content: "";
+			position: absolute;
+			width: 4px;
+			height: 2px;
+			left: 80%;
+			top: -2px;
+			border: 2px solid var(--clr);
+			background: #272822;
+			transition: 0.2s;
+		  }
+		  
+		  .changebtn:hover i::before {
+			width: 6px;
+			left: 20%;
+			animation: move 3s infinite;
+		  }
+		  
+		 .changebtn i::after {
+			content: "";
+			position: absolute;
+			width: 3px;
+			height: 1.5px;
+			left: 20%;
+			bottom: -2px;
+			border: 2px solid var(--clr);
+			background: #272822;
+			transition: 0.2s;
+		  }
+		  
+		  .changebtn:hover i::after {
+			width: 6px;
+			left: 80%;
+			animation: move 3s infinite;
+		  }
+		  
+		  @keyframes move {
+			0% {
+			  transform: translateX(0);
+			}
+			50% {
+			  transform: translateX(5px);
+			}
+			100% {
+			  transform: translateX(0);
+			}
+		  }
+		  
+		  @keyframes box {
+			0% {
+			  box-shadow: #27272c;
+			}
+			50% {
+			  box-shadow: 0 0 25px var(--clr);
+			}
+			100% {
+			  box-shadow: #27272c;
+			}
+		  }
+		  
+
