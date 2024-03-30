@@ -7,7 +7,7 @@ Description :
 
       OpenCV : for capturing images from webcam as well as for processing purpose. made implemantation of fisherface 			 methodology of opencv for classification.
 
-      FisherFace : to train the madel and store it in a model-file(.xml). While using player it uses for prediction 				 for emotion.
+      FisherFace : to train the model and store it in a model-file(.xml). While using player it uses for prediction 				 for emotion.
       
       **--> We have used haarcascade trained model provided by OpenCV for face segmentation from the captured image.
 
@@ -31,7 +31,6 @@ HOW TO RUN ?
 --> download whole project in single folder as uploaded. If U r familiar with jss by understanding the js model u can easly insert # 	 of songs bcz we have make the whole javascript code dynamically such that, just by inserting data inyo the correct dictionary in js will make the project to show and run your own choosed musics.
 
 --> make sure u have installed openCV, opencv contrib, eel, numpy and all it's dependancies.
-library of eel : https://drive.google.com/open?id=1LphmYEBwa-SXbTFXuxIKBAt4iQ1Z2JA8
 *--> Just run capture.py file.
 
 -->u can see the images on which assumption of emotion is made in the images folder.
